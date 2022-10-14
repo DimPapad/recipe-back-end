@@ -1,0 +1,122 @@
+div {
+    font-family: "Times New Roman", Times, serif;
+}
+
+select {
+  padding: 2px 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin: 10px 0;
+}
+
+input[type=text] {
+  padding: 8px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  border-radius: 4px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+#fancytb {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#fancytb td, #fancytb th {
+  border: 1px solid #ddd;
+  padding: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#fancytb tr:nth-child(even){background-color: #f2f2f2;}
+
+#fancytb tr:hover {background-color: #ddd;}
+
+#fancytb th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #323232;
+  color: white;
+}
+
+.buttonfake {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 1px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonfakebig {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 1px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttongreen {
+  background-color: #C5E5C5; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.buttongreen:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttonblue {
+  background-color:#97D0E3; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.buttonblue:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.buttonred {
+  background-color:#EEACAC; 
+  color: black; 
+  border: 2px solid #CC0000;
+}
+
+.buttonred:hover {
+  background-color: #CC0000;
+  color: white;
+}
+.buttongrey {
+  background-color:#DDDDDD; 
+  color: black; 
+  border: 2px solid #999999;
+}
+
+.buttongrey:hover {
+  background-color: #999999;
+  color: white;
+}
